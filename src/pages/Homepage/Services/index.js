@@ -8,7 +8,7 @@ import content from "./constants.js";
 const ServicesSection = () => {
   const { title, heading, subheading } = content;
   return (
-    <section id="services" className="p-20 bg-gray-500 text-center">
+    <section id="services" className="p-20 bg-gray-800 text-center">
       <SectionTitle title={title} />
       <SectionHeading heading={heading} />
       <SectionSubHeading text={subheading} />
