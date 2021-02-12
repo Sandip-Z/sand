@@ -1,26 +1,18 @@
-nav {
-  background-color: green;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav ul {
-  display: flex;
-}
-
 nav ul a {
   text-decoration: none;
-  color: inherit;
+  color: whitesmoke;
 }
 nav ul li {
   list-style: none;
   padding: 15px;
+  transition: all 0.3s;
 }
 
-.menu-wrapper {
-  display: flex;
+nav ul li:hover {
+  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
+  transition: all 0.3s;
 }
 
 ul.social-media {
-  border-left: 1px solid red;
+  border-left: 1px solid rgba(245, 158, 11, var(--tw-bg-opacity));
 }

@@ -1,10 +1,10 @@
 import "./index.css";
 const NavSection = () => {
   return (
-    <nav>
+    <nav className="bg-gray-900 flex justify-between shadow-2xl">
       <div>logo</div>
-      <div className="menu-wrapper">
-        <ul>
+      <div className="menu-wrapper flex">
+        <ul className="flex">
           <a href="#">
             <li>Home</li>
           </a>
@@ -21,7 +21,7 @@ const NavSection = () => {
             <li>Contact</li>
           </a>
         </ul>
-        <ul className="social-media">
+        <ul className="flex social-media">
           <a href="#">
             <li>github</li>
           </a>
