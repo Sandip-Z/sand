@@ -8,7 +8,7 @@ const PortfolioSection = () => {
       <SectionTitle title="Portfolio" />
       <SectionHeading heading="My Master Piece Collection" />
       <SectionSubHeading text="lorem ipad sdjkakdjlaksjd lkasjfklsjf klsdjflksdfj sdlkjf lksdjflksd jflksjdfjs dkljflksd j fljsdlj gkl" />
-      <div className="grid grid-rows-2 grid-cols-3">
+      <div className="grid grid-rows-2 grid-cols-3 my-10 gap-5">
         <div className="bg-yellow-500">1</div>
         <div className="bg-green-500 col-start-2 col-end-3 row-start-1 row-end-3">
           2
