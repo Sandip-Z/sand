@@ -4,7 +4,10 @@ import SectionTitle from "../Components/SectionTitle";
 
 const BlogSection = () => {
   return (
-    <section id="blog" className="bg-gray-800 text-center p-20">
+    <section
+      id="blog"
+      className="bg-gray-800 text-center p-10 lg:p-20 sm:p-10 md:p-20 "
+    >
       <SectionTitle title="Latest News" />
       <SectionHeading heading="My latest articles" />
       <SectionSubHeading text="dkakdl;akdlasdka kda l;adk;lakd;las k d;lakd;las k;dlkasdka;sldk;laskd;la skd;lakd;lkadsa;slkd;laskd;laskd;l a" />

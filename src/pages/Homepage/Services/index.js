@@ -19,11 +19,14 @@ const ServicesSection = () => {
     },
   };
   return (
-    <section id="services" className="p-20 bg-gray-800 text-center">
+    <section
+      id="services"
+      className="p-10 lg:p-20 sm:p-10 md:p-20 bg-gray-800 text-center"
+    >
       <SectionTitle title={title} />
       <SectionHeading heading={heading} />
       <SectionSubHeading text={subheading} />
-      <div className="grid grid-cols-4 gap-4 my-10">
+      <div className="grid sm:grid-cols-1 sm:grid-row-4 md:grid-cols-2 md:grid-row-2 lg:grid-cols-4 lg:grid-row-1  gap-4 my-10">
         <div>
           <ServiceInformationBox
             icon={<FaPencilRuler {...iconStyles} />}

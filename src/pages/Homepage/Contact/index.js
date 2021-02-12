@@ -21,11 +21,14 @@ const ContactSection = () => {
     },
   };
   return (
-    <section id="contact" className="bg-gray-900 text-center p-20">
+    <section
+      id="contact"
+      className="bg-gray-900 text-center p-10 lg:p-20 sm:p-10 md:p-20"
+    >
       <SectionTitle title="contact me" />
       <SectionHeading heading="Ways to contact me" />
       <SectionSubHeading text="daskd ;alskd ;lakdlkasdk;ak d;ushfkjsdhfyw giuhfvj df dkl;j o" />
-      <div className="flex flex-wrap my-5 mx-40 justify-around">
+      <div className="flex flex-wrap my-5 mx-40 lg:mx-40 md:mx-20 sm:mx-5 justify-around">
         <ContactInformation
           icon={<FaGoogle {...iconStyles} />}
           information="sandipsatyal25"

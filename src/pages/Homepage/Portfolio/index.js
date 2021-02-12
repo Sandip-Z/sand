@@ -4,7 +4,7 @@ import SectionSubHeading from "../Components/SectionSubHeading";
 
 const PortfolioSection = () => {
   return (
-    <section className="bg-gray-900 text-center p-20">
+    <section className="bg-gray-900 text-center p-10 lg:p-20 sm:p-10 md:p-20 ">
       <SectionTitle title="Portfolio" />
       <SectionHeading heading="My Master Piece Collection" />
       <SectionSubHeading text="lorem ipad sdjkakdjlaksjd lkasjfklsjf klsdjflksdfj sdlkjf lksdjflksd jflksjdfjs dkljflksd j fljsdlj gkl" />
